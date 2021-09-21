@@ -1,10 +1,12 @@
 import * as THREE from 'three'
 import GSAP from 'gsap'
 
-import SmoothScroll from './SmoothScroll'
+import SmoothScroll from './SmoothScroll.js'
 
 import vertexShader from './shaders/vertex.glsl'
 import fragmentShader from './shaders/fragment.glsl'
+
+import './styles/shaders-on-scroll.sass'
 
 class ScrollStage {
   constructor() {
