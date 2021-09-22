@@ -18,6 +18,6 @@ void main() {
  
   vec3 color = cosPalette(distort, brightness, contrast, oscilation, phase);
   
-  gl_FragColor = vec4(color, vDistortion);
-  gl_FragColor += vec4(min(uDeepPurple, 1.), 0., .5, min(uOpacity, 1.));
+  // gl_FragColor = vec4(color, vDistortion);
+  gl_FragColor = vec4(min(uDeepPurple, 1.), 0., .5, min(uOpacity, 1.));
 }
