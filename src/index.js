@@ -111,7 +111,7 @@ class ScrollStage {
    */
   addCanvas() {
     this.canvas.classList.add('webgl')
-    document.body.appendChild(this.canvas)
+    document.body.prepend(this.canvas)
   }
 
   addCamera() {
