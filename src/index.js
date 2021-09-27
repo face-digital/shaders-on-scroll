@@ -123,7 +123,7 @@ class ScrollStage {
    * OBJECT
    */
   addMesh() {
-    this.geometry = new THREE.IcosahedronGeometry(1, 48)
+    this.geometry = new THREE.IcosahedronGeometry(1, 64)
     
     this.material = new THREE.ShaderMaterial({
       wireframe: true,
