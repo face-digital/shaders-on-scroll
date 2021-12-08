@@ -63,7 +63,7 @@ class ScrollStage {
 
     this.scene = new THREE.Scene()
 
-    this.renderer = new THREE.WebGLRenderer({ 
+    this.renderer = new THREE.WebGLRenderer({
       antialias: true, 
       alpha: true,
       preserveDrawingBuffer: true
@@ -252,4 +252,4 @@ class ScrollStage {
   }  
 }
 
-new ScrollStage()
+window.__scrollStage = new ScrollStage()
