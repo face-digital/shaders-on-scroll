@@ -65,7 +65,8 @@ class ScrollStage {
 
     this.renderer = new THREE.WebGLRenderer({ 
       antialias: true, 
-      alpha: true 
+      alpha: true,
+      preserveDrawingBuffer: true
     })
 
     this.canvas = this.renderer.domElement
